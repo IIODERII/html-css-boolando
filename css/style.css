@@ -55,10 +55,10 @@ a:hover{
 
 /* header */
 
-header{
+.head-wrapper{
     background-color: var(--color-header);
     padding: 20px 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -66,3 +66,86 @@ header{
     width: 130px;
 }
 
+/* main */
+
+main{
+    margin-top: 80px;
+}
+
+.card-container{
+    width: calc(100% / 3);
+    min-width: 300px;
+    padding: 0 10px 50px;
+}
+
+/* inizio cards */
+
+.image-part{
+    position: relative;
+}
+
+.heart{
+    padding: 0 15px;
+    font-size: 2em;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 0;    
+}
+
+.red-hov:hover{
+    color: var(--color-red);
+    cursor: pointer;
+}
+
+.discount{
+    background-color: var(--color-red);
+    padding: 5px 10px;
+}
+
+.sost{
+    background-color: var(--color-accessory);
+    padding: 5px 10px;
+}
+
+.labels{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.hov{
+    display: none;
+}
+
+.no-hov:hover + .hov{
+    display: inline-block;
+}
+
+.no-hov:hover{
+    opacity: 0;
+    position: absolute;
+}
+
+.card h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.act-price{
+    color: var(--color-red);
+    font-weight: bold;
+    padding-right: 0.6em;
+}
+
+.act-price + span{
+    text-decoration: line-through;
+}
+/* fine cards */
