@@ -28,7 +28,7 @@ ul{
 
 a{
     text-decoration: none;
-    padding: 0 5px;
+    padding-right: 10px;
     color: #ffffff;
 }
 
@@ -149,3 +149,30 @@ main{
     text-decoration: line-through;
 }
 /* fine cards */
+
+/* footer */
+
+footer{
+    background-color: var(--color-footer);
+    color: #ffffff;
+}
+
+footer .container{
+    padding-bottom: 50px;
+}
+
+footer .container h3, aside{
+    padding-top: 40px;
+}
+
+footer ul{
+    padding-top: 20px;
+}
+
+footer ul i{
+    font-size: 1.5em;
+}
+
+footer .left-side ul{
+    font-size: 0.8em;
+}
