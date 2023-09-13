@@ -1,0 +1,19 @@
+/* general */
+
+:root{
+    --color-header: #ff6900;
+    --color-footer: #1a1a1a;
+    --color-red: #ff0000;
+    --color-accessory: #008000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
